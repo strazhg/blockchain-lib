@@ -1,7 +1,7 @@
 # blockchain-lib
 a basic blockchain implementation with wallets
 
-<h2>Usage Example</h2>:
+<h2>Usage Example</h2>
 
     //adding blockchain-lib library!
     const blockchain_lib = require('blockchain-lib');
