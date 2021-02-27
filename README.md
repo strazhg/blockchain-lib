@@ -1,5 +1,5 @@
 # blockchain-lib
-a basic blockchain implementation with wallets
+a basic blockchain implementation with wallets in node.js
 
 <h2>Usage Example</h2>
 
