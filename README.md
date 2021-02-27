@@ -12,7 +12,7 @@ a basic blockchain implementation with wallets in node.js
 <h2>Usage Example</h2>
 
     //adding blockchain-lib library!
-    const blockchain_lib = require('blockchain-lib');
+    const blockchain_lib = require('blockchain-lib/index.js');
 
     //accuiring required classes!
     const Blockchain = blockchain_lib.Blockchain;
