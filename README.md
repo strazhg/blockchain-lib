@@ -20,12 +20,14 @@ a basic blockchain implementation with wallets in node.js
     example_wallet_1.totalBalance = 1000;
 
     while(true) {
-
+      //create and check the signature of the transaction!
       if(example_coin.createTransaction(new Transaction(example_wallet_1.addressList[0], example_wallet_2.addressList[0], 100))) {
-
+        
+        //update the balance of each wallet!
         example_wallet_1.updateBalance();
         example_wallet_2.updateBalance();
-
+        
+        //output the block pushed to the blockchain in the console!
         console.log("----------------\n\nLatest Block Pushed:\n\n" + JSON.stringify(example_coin.getLatestBlock()) + '\n\n----------------');
 
       }
