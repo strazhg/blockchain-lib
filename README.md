@@ -6,7 +6,7 @@ a basic blockchain implementation with wallets in node.js
 1. Clone or download the zip of this repository on to your local machine.
 2. Unzip the archive to a folder (Only do this if you download the zip, otherwise skip this step).
 3. Go to the folder of your node.js application.
-4. Type the command 'npm install <put the path of unzipped or cloned repository here>' without the quotes.
+4. Type the command 'npm install [put the path of unzipped or cloned repository here]' without the quotes.
 5. Done! Now you can use the library!
 
 <h2>Usage Example</h2>
